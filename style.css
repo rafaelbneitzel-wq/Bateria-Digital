@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+.instrumento {
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.ximbau {
+    background-color: yellow;
+    left: 10%;
+    top: 20%;
+}
+
+.caixa {
+    background-color: whitesmoke;
+    left: 18%;
+    top: 30%;
+}
+
+.bumbo {
+    background-color: gray;
+    left: 28%;
+    top: 30%;
+}
+
+.surdo {
+    background-color: bisque;
+    left: 36%;
+    top: 20%;
+}
+
+
+.prato {
+    background-color: darkorange;
+    left: 20%;
+    top: 10%;
+}
